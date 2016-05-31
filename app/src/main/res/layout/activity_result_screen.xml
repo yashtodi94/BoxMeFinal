@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="geometric.boxme.resultscreen">
+
+    TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/previewImg"
+
+        android:background="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+        android:layout_marginTop="25dp"
+        android:adjustViewBounds="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Carrying capacity:"
+        android:id="@+id/capacityLbl"
+        android:layout_below="@+id/previewImg"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kg"
+        android:id="@+id/unitBtn"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/capacityLbl"
+        android:layout_alignEnd="@+id/capacityLbl"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main menu"
+        android:id="@+id/goMainBtn"
+        android:layout_marginBottom="42dp"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New"
+        android:id="@+id/newBtn"
+
+        android:layout_alignTop="@+id/goMainBtn"
+        android:layout_toRightOf="@+id/previewImg"
+        android:layout_toEndOf="@+id/previewImg"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/resLbl"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/capacityLbl"
+        android:layout_alignStart="@+id/capacityLbl" />
+
+</RelativeLayout>

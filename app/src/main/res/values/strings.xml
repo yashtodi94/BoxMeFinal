@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BoxMeFinal</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_accept_screen">AcceptScreen</string>
+    <string name="title_activity_result_screen">ResultScreen</string>
+    <string name="title_activity_num">NumActivity</string>
+    <string name="title_activity_add_contact">AddContact</string>
+    <string name="title_activity_delete_call_log">DeleteCallLog</string>
+    <string name="title_activity_delete_contact">DeleteContact</string>
+    <string name="title_activity_dialer_screen">DialerScreen</string>
+    <string name="dummy_button">Cut</string>
+    <string name="dummy_content">Calling</string>
+</resources>
